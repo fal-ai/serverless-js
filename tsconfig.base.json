@@ -20,7 +20,8 @@
       "@fal-ai/create-app": ["libs/create-app/src/index.ts"],
       "@fal-ai/server-proxy": ["libs/proxy/src/index.ts"],
       "@fal-ai/server-proxy/express": ["libs/proxy/src/express.ts"],
-      "@fal-ai/server-proxy/nextjs": ["libs/proxy/src/nextjs.ts"]
+      "@fal-ai/server-proxy/nextjs": ["libs/proxy/src/nextjs.ts"],
+      "@fal-ai/server-proxy/lambda": ["libs/proxy/src/lambda.ts"]
     }
   },
   "exclude": ["node_modules/**", "tmp/**", "dist/**"]

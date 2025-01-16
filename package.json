@@ -132,7 +132,11 @@
     "typedoc-github-theme": "^0.1.2",
     "typedoc-plugin-extras": "^3.1.0",
     "typedoc-plugin-mdn-links": "^3.2.12",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "aws-lambda": "^1.0.7",
+    "aws-cdk-lib": "^2.176.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.2"
   },
   "prettier": {
     "plugins": [

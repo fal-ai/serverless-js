@@ -1,0 +1,3 @@
+{
+  "app": "npx tsx cdk/demo-lambda-app-stack.ts"
+}

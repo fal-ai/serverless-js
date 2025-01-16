@@ -60,6 +60,16 @@ For Express applications:
 
 3. Ensure you've set the `FAL_KEY` as an environment variable in your server, containing a valid API Key.
 
+## AWS Lambda integration
+
+For AWS Lambda applications:
+
+1. Re-export the proxy handler from your Lambda handler file
+   ```ts
+   export { handler } from "@fal-ai/server-proxy/lambda";
+   ```
+2. Ensure you've set the `FAL_KEY` as an environment variable in your server, containing a valid API Key.
+
 ## Client configuration
 
 Once you've set up the proxy, you can configure the client to use it:
